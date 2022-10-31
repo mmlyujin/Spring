@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="MVCProj01"/>
+<aop-project name="MVC_MyBatis01"/>
+<aop-project name="MVCproj02"/>
+<aop-project name="MVC_MyBatis"/>
+</aop-reference-model>

@@ -1,0 +1,4 @@
+
+10월 25, 2022 11:44:18.985 NEW SESSION
+10월 25, 2022 11:44:18.986 [9984:10436:1025/114418.983:ERROR:device_event_log_impl.cc(214)] [11:44:18.984] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+10월 25, 2022 11:44:18.994 [9984:10436:1025/114418.994:ERROR:device_event_log_impl.cc(214)] [11:44:18.994] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)

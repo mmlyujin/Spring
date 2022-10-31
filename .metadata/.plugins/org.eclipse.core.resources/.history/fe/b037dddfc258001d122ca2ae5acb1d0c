@@ -1,0 +1,12 @@
+package com.yj.app;
+
+public class BoardDTO {
+private int idx;
+private String title;
+private String writer;
+private String pw;
+private String content;
+private String regdate;
+
+
+}

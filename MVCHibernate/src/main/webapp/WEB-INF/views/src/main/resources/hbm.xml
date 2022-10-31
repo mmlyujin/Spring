@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.hs.app.BoardDto" table = "hbboard">      
+      <meta attribute = "class-description">
+         This class contains the dummy detail. 
+      </meta>
+      
+      <id name = "idx" type = "int" column = "idx">
+         <generator class="native"/>
+      </id>
+            
+      <property name = "title"  type = "string" column = "title"/>      
+      <property name = "writer"  type = "string" column = "writer"/>
+      <property name = "pw"  type = "string" column = "pw"/>
+      <property name = "content" type = "string" column = "content"/>
+      <property name = "regdate" type = "string" column = "regdate"/>
+      
+   </class>
+</hibernate-mapping>
+
+
+
+
+
+
+
+
+
+
+

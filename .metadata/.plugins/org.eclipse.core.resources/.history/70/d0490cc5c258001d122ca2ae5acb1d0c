@@ -1,0 +1,5 @@
+package com.yj.app;
+
+public class BoardDTO {
+
+}

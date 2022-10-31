@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.yj.app.HiberDTO" table = "hbdummy">      
+      <meta attribute = "class-description">
+         This class contains the dummy detail. 
+      </meta>
+      
+      
+      <!-- 프라이머리 키..?  -->
+      <id name = "idx" type = "int" column = "idx">
+         <generator class="native"/>
+      </id>
+            
+            <!-- 테이블 컬럼들 -->
+      <property name = "id"  type = "string" column = "id"/>      
+      <property name = "pw"  type = "string" column = "pw"/>
+      <property name = "content" type = "string" column = "content"/>
+      
+   </class>
+   
+      <class name = "com.yj.app.BoardDTO" table = "hbboard">      
+      <meta attribute = "class-description">
+         This class contains the dummy detail. 
+      </meta>
+      
+      
+      <!-- 프라이머리 키..?  -->
+      <id name = "idx" type = "int" column = "idx">
+         <generator class="native"/>
+      </id>
+            
+            <!-- 테이블 컬럼들 -->
+      <property name = "title"  type = "string" column = "title"/>      
+      <property name = "writer"  type = "string" column = "writer"/>
+      <property name = "pw" type = "string" column = "pw"/>
+      <property name = "content" type = "string" column = "content"/>
+      <property name = "regdate" type = "string" column = "regdate"/>
+      
+   </class>
+   
+</hibernate-mapping>

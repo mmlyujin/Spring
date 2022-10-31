@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Board</title>
+</head>
+<body>
+<a href="home.jsp">메인으로 이동</a>
+		<form action="boardInsert" method="post">
+		Title : <input type="text" name="title">
+		Writer : <input type="text" name="writer">
+		Pw : <input type="password" name="pw">
+		Content : <textarea name="content"></textarea>
+		<input type="submit" value="작성완료">
+	</form>
+	<hr>
+	
+<c:forEach var="i" items="${list}">
+		<a href="delete?idx=${i.idx}">${i.idx}</a>/
+		<a href="selectOne?idx=${i.idx}">${i.title}</a>/
+		${i.pw}/
+		${i.name}<br>
+	</c:forEach>
+</body>
+</html>

@@ -1,0 +1,10 @@
+package com.yj.app;
+
+import org.hibernate.SessionFactory;
+import org.springframework.stereotype.Repository;
+
+//dao에는 repository 필요
+@Repository
+public class HiberDAO {
+	private SessionFactory sessionFactory;
+}

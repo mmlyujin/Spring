@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.hs.app.HiberDTO" table = "mbdummy">      
+      <meta attribute = "class-description">
+         This class contains the dummy detail. 
+      </meta>
+      
+      <id name = "idx" type = "int" column = "idx">
+         <generator class="native"/>
+      </id>
+            
+      <property name = "id"  type = "string" column = "id"/>      
+      <property name = "pw"  type = "string" column = "pw"/>
+      <property name = "content" type = "string" column = "content"/>
+      
+   </class>
+</hibernate-mapping>

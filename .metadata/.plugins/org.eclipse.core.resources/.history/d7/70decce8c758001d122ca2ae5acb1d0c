@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+		<form action="updateData" method="post">
+		Title : <input type="text" name="title">
+		Writer : <input type="text" name="writer">
+		Pw : <input type="password" name="pw">
+		Content : <textarea name="content"></textarea>
+		<input type="submit" value="작성완료">
+	</form>
+</body>
+</html>
